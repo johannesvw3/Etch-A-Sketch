@@ -1,3 +1,8 @@
+.page-wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
 :root {
     background: rgb(192, 13, 13)
 }
@@ -6,22 +11,54 @@
     display: inline-grid;
     margin-top: 5%;
     border: 5px solid black;
-    margin-left: 30%;
+    margin-left: 13%;
 }
 
 .square1 {
     background: white;
 }
 
-.reset {
-    position: absolute;
-    margin-left: 31%;
+#buttons {
+    position: relative;
+    top: -140px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
     margin-top: 1%;
     font-size: 15px; 
-    background-color: rgb(24, 8, 143);
-    border: solid 4px black;
     color: white;
 }
+
+.reset {
+    border: solid black;
+    background: rgb(67, 67, 243);
+    color: black;
+}
+
+.resize {
+    border: solid black;
+    background: rgb(67, 67, 243);
+    color: black;
+}
+
+.gradient {
+    border: solid black;
+    background: rgb(67, 67, 243);
+    color: black;
+}
+
+.black {
+    border: solid black;
+    background: rgb(67, 67, 243);
+    color: black;
+}
+
+.color {
+    border: solid black;
+    background: rgb(67, 67, 243);
+    color: black;
+}
+
 
 .reset:active {
     box-shadow: 0px 0px 5px 5px black;
@@ -30,15 +67,7 @@
     border: solid 3px black;
 }
 
-.resize {
-    position: absolute;
-    margin-top: 1%;
-    margin-left: 35%;
-    font-size: 15px; 
-    background-color: rgb(24, 8, 143);
-    border: solid 4px black;
-    color: white;
-}
+
 
 .resize:active {
     box-shadow: 0px 0px 5px 5px black;
@@ -47,15 +76,7 @@
     border: solid 5px black;
 }
 
-.gradient {
-    position: absolute;
-    margin-top: 1%;
-    margin-left: 41%;
-    font-size: 15px; 
-    background-color: rgb(24, 8, 143);
-    border: solid 4px black;
-    color: white;
-}
+
 
 .gradient:active {
     box-shadow: 0px 0px 5px 5px black;
@@ -64,15 +85,7 @@
     border: solid 5px black;
 }
 
-.black{
-    position: absolute;
-    margin-top: 1%;
-    margin-left: 46%;
-    font-size: 15px; 
-    background-color: rgb(24, 8, 143);
-    border: solid 4px black;
-    color: white;
-}
+
 
 .black:active {
     box-shadow: 0px 0px 5px 5px black;
@@ -81,15 +94,6 @@
     border: solid 5px black;
 }
 
-.color {
-    position: absolute;
-    margin-top: 1%;
-    margin-left: 52.5%;
-    font-size: 15px; 
-    background-color: rgb(24, 8, 143);
-    border: solid 4px black;
-    color: white;
-}
 
 .color:active {
     box-shadow: 0px 0px 5px 5px black;
@@ -99,17 +103,15 @@
 }
 
 #sketch {
-    position: absolute;
+    position: relative;
+    top: -350px;
+    margin-left: 95%;
     width: 500px;
-    margin-left: 71%;
-    margin-top: -390px;
 }
 
-#knob1 {
-    position: absolute;
-
+.knobs {
+    position: relative;
+    top: -150px;
+    display: flex;
+    justify-content: space-between;
 }
-
-#knob2 {
-    position: absolute;
-    margin-left: 1830px;
